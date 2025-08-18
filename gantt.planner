@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<project name="Taller de Sistemas Electr&#xF3;nicos" company="Universidad de Concepci&#xF3;n" manager="Bruno Pacheco Champin" phase="" project-start="20250814T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day"/>
+      <day-type id="1" name="Nonworking" description="A default non working day"/>
+      <day-type id="2" name="Use base" description="Use day from base calendar"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20250915" type="day-type" id="1"/>
+        <day date="20251031" type="day-type" id="1"/>
+        <day date="20250919" type="day-type" id="1"/>
+        <day date="20250916" type="day-type" id="1"/>
+        <day date="20250815" type="day-type" id="1"/>
+        <day date="20250917" type="day-type" id="1"/>
+        <day date="20251208" type="day-type" id="1"/>
+        <day date="20250918" type="day-type" id="1"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Proyecto 1: Convertidor DC/DC SEPIC" note="" work="1497600" duration="1180800" start="20250814T000000Z" end="20251017T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="Nivel 0: Planificaci&#xF3;n" note="" work="144000" duration="144000" start="20250814T000000Z" end="20250821T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="3" name="Instalaci&#xF3;n software para carta Gantt" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="4" name="Planificaci&#xF3;n carta Gantt" note="" work="86400" duration="86400" start="20250814T170000Z" end="20250820T170000Z" work-start="20250818T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="3" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="5" name="Presentaci&#xF3;n carta Gantt" note="" work="28800" duration="28800" start="20250820T170000Z" end="20250821T170000Z" work-start="20250821T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="4" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="6" name="Nivel 1: Dise&#xF1;o e implementaci&#xF3;n de prototipo" note="" work="432000" duration="345600" start="20250814T000000Z" end="20250901T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="7" name="Estudio topolog&#xED;a SEPIC" note="" work="86400" duration="86400" start="20250814T000000Z" end="20250819T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="8" name="Dise&#xF1;o de circuito y simulaci&#xF3;n" note="" work="57600" duration="57600" start="20250819T170000Z" end="20250821T170000Z" work-start="20250820T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="7" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="9" name="Selecci&#xF3;n de componentes para prototipo" note="" work="28800" duration="28800" start="20250821T170000Z" end="20250822T170000Z" work-start="20250822T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="8" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="10" name="Selecci&#xF3;n y estudio de driver" note="" work="57600" duration="57600" start="20250819T170000Z" end="20250821T170000Z" work-start="20250820T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="7" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="11" name="Adecuaci&#xF3;n de pulsos en driver" note="" work="28800" duration="28800" start="20250821T170000Z" end="20250822T170000Z" work-start="20250822T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="10" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="12" name="Dise&#xF1;o e implementaci&#xF3;n en PCB" note="" work="57600" duration="57600" start="20250822T170000Z" end="20250826T170000Z" work-start="20250825T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="9" type="FS"/>
+            <predecessor id="1" predecessor-id="11" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="13" name="Verificaci&#xF3;n del prototipo" note="" work="57600" duration="57600" start="20250826T170000Z" end="20250828T170000Z" work-start="20250827T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="12" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="14" name="Preparaci&#xF3;n presentaci&#xF3;n" note="" work="28800" duration="28800" start="20250828T170000Z" end="20250829T170000Z" work-start="20250829T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="13" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="15" name="Presentaci&#xF3;n nivel 1" note="" work="28800" duration="28800" start="20250829T170000Z" end="20250901T170000Z" work-start="20250901T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="14" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="16" name="Nivel 2: Control PWM mediante microcontrolador" note="" work="345600" duration="374400" start="20250901T170000Z" end="20250925T170000Z" work-start="20250902T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="17" name="Estudio de microcontrolador" note="" work="28800" duration="28800" start="20250901T170000Z" end="20250902T170000Z" work-start="20250902T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="15" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="18" name="Familiarizaci&#xF3;n con entorno de desarrollo" note="" work="57600" duration="57600" start="20250902T170000Z" end="20250904T170000Z" work-start="20250903T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="17" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="19" name="Programaci&#xF3;n de pulsos PWM" note="" work="115200" duration="115200" start="20250904T170000Z" end="20250910T170000Z" work-start="20250905T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="18" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="20" name="Verificaci&#xF3;n de funcionamiento" note="" work="86400" duration="86400" start="20250910T170000Z" end="20250922T170000Z" work-start="20250911T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="19" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="21" name="Preparaci&#xF3;n presentaci&#xF3;n" note="" work="28800" duration="28800" start="20250922T170000Z" end="20250923T170000Z" work-start="20250923T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="20" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="22" name="Presentaci&#xF3;n nivel 2" note="" work="28800" duration="28800" start="20250925T000000Z" end="20250925T170000Z" work-start="20250925T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="start-no-earlier-than" time="20250925T000000Z"/>
+          <predecessors>
+            <predecessor id="1" predecessor-id="21" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="23" name="Nivel 3: Interfaz gr&#xE1;fica" note="" work="576000" duration="460800" start="20250925T170000Z" end="20251017T170000Z" work-start="20250926T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="24" name="Selecci&#xF3;n plataforma para interfaz gr&#xE1;fica" note="" work="28800" duration="28800" start="20250925T170000Z" end="20250926T170000Z" work-start="20250926T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="22" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="25" name="Programaci&#xF3;n interfaz gr&#xE1;fica" note="" work="144000" duration="144000" start="20250926T170000Z" end="20251003T170000Z" work-start="20250929T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="24" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="26" name="Programaci&#xF3;n comunicaci&#xF3;n con microcontrolador" note="" work="57600" duration="57600" start="20251003T170000Z" end="20251007T170000Z" work-start="20251006T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="25" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="27" name="Integraci&#xF3;n microcontrolador con convertidor" note="" work="57600" duration="57600" start="20251007T170000Z" end="20251009T170000Z" work-start="20251008T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="26" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="28" name="Pruebas y mediciones" note="" work="57600" duration="57600" start="20251009T170000Z" end="20251013T170000Z" work-start="20251010T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="27" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="29" name="Correcci&#xF3;n de errores" note="" work="57600" duration="57600" start="20251013T170000Z" end="20251015T170000Z" work-start="20251014T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="28" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="30" name="Preparaci&#xF3;n presentaci&#xF3;n" note="" work="28800" duration="28800" start="20251015T170000Z" end="20251016T170000Z" work-start="20251016T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="29" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="31" name="Presentaci&#xF3;n nivel 3" note="" work="28800" duration="28800" start="20251016T170000Z" end="20251017T170000Z" work-start="20251017T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="30" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="32" name="Preparaci&#xF3;n informe proyecto" note="" work="86400" duration="86400" start="20251013T170000Z" end="20251016T170000Z" work-start="20251014T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="28" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="33" name="Presentaci&#xF3;n informe proyecto" note="" work="28800" duration="28800" start="20251016T170000Z" end="20251017T170000Z" work-start="20251017T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="32" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+    </task>
+    <task id="34" name="Proyecto 2: ( ... )" note="" work="86400" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="35" name="Nivel 1: Dise&#xF1;o e implementaci&#xF3;n prototipo" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="36" name="Nivel 2: Control" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="37" name="Nivel 3: Interfaz gr&#xE1;fica" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources>
+    <resource id="1" name="Bruno Pacheco Champin" short-name="BPC" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="2" name="Peter Rozas Prado" short-name="PRP" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="Tom&#xE1;s Aguayo Briones" short-name="TAB" type="1" units="0" email="" note="" std-rate="0"/>
+  </resources>
+  <allocations/>
+</project>

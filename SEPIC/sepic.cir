@@ -1,0 +1,14 @@
+.tran 1u 1m uic
+L1 +24V Q1-drain 1.93m
+C1 +24V GND 4.7u
+L2 GND Net-_D1-A_ 1.93m
+s1 Q1-drain GND PWM GND switch1 OFF
+.model switch1 sw vt=1 vh=0.2 ron=1
+C3 GND out 46u
+D1 out Net-_D1-A_ __D1
+.model __D1 D
+C2 Net-_D1-A_ Q1-drain 1u
+
+V1 PWM GND PULSE(0 5 0n 1u 1u 12u 17u)
+V2 +24V GND DC 24
+.end
