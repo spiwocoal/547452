@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/Inductor.kicad_sym")(options "")(descr ""))
+)

@@ -173,10 +173,21 @@
         </task>
       </task>
     </task>
-    <task id="34" name="Proyecto 2: ( ... )" note="" work="86400" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="35" name="Nivel 1: Dise&#xF1;o e implementaci&#xF3;n prototipo" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="36" name="Nivel 2: Control" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="37" name="Nivel 3: Interfaz gr&#xE1;fica" note="" work="28800" duration="28800" start="20250814T000000Z" end="20250814T170000Z" work-start="20250814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="34" name="Proyecto 2: TBD" note="" work="806400" duration="806400" start="20251017T170000Z" end="20251127T170000Z" work-start="20251020T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="35" name="Nivel 1: Dise&#xF1;o e implementaci&#xF3;n prototipo" note="" work="288000" duration="288000" start="20251017T170000Z" end="20251103T170000Z" work-start="20251020T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="36" name="Nivel 2: Control" note="" work="230400" duration="230400" start="20251103T170000Z" end="20251113T170000Z" work-start="20251104T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="35" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="37" name="Nivel 3: Interfaz gr&#xE1;fica" note="" work="288000" duration="288000" start="20251113T170000Z" end="20251127T170000Z" work-start="20251114T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="36" type="FS"/>
+        </predecessors>
+      </task>
     </task>
   </tasks>
   <resource-groups/>
