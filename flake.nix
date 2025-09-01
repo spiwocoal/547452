@@ -15,6 +15,7 @@
           buildInputs = with pkgs; [
             planner
             ngspice
+            kicad
             xyce-parallel
             gnucap-full
           ];

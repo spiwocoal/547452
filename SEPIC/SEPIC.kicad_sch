@@ -3344,6 +3344,15 @@
 		(color 0 0 0 0)
 		(uuid "c96e13ad-d6a7-406a-b64a-9000b5865707")
 	)
+	(bus_entry
+		(at 107.95 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e26cba-5577-4f12-b9b3-ac6c646f1ef5")
+	)
 	(wire
 		(pts
 			(xy 118.11 48.26) (xy 118.11 49.53)
@@ -4547,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm"
 			(at 77.47 76.2 0)
 			(effects
 				(font
@@ -4565,7 +4574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Condensador electrolítico, 22uF 160V"
 			(at 77.47 76.2 0)
 			(effects
 				(font
@@ -4821,7 +4830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -4839,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Condensador electrolítico, 220uF 160v"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -5543,7 +5552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C")
 		(at 106.68 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5559,7 +5568,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "2.2u"
 			(at 106.68 66.548 90)
 			(effects
 				(font
@@ -5567,8 +5576,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
-			(at 106.68 69.85 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT"
+			(at 110.49 68.8848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Condensador cerámico, 2.2uF 250V"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -5635,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 86.36 36.068 90)
 			(effects
 				(font
