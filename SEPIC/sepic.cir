@@ -1,15 +1,16 @@
-.tran 1u 1m uic
-L1 +24V Q1-drain 2m
-C1 +24V GND 16u
-L2 GND Net-_D1-A_ 2m
-s1 Q1-drain GND PWM GND switch1 OFF
-.model switch1 sw vt=1 vh=0.2 ron=1
-C3 GND out 100u
-D1 out Net-_D1-A_ __D1
-.model __D1 D
-C2 Net-_D1-A_ Q1-drain 10u
+.title SEPIC
+.tran 1u 40m
+.model switch1 SW(Ron=.01 Roff=1Meg Vt=.001)
+.model diode1 D(BV=100 VJ=0.5)
+R1 +24V n1 10m
+L1 n1 n2 2.8m
+C2 n2 n3 22u
+L2 n3 GND 2.8m
+s1 n2 GND PWM GND switch1 OFF
+D1 n3 out diode1
+C3 out GND 220u
 Rload out GND 460
 
-V1 PWM GND PULSE(0 5 0n 1n 1n 11.15u 16.66u)
+V1 PWM GND PULSE(0 10 0 1n 1n 6u 16.66u)
 V2 +24V GND DC 24
 .end
