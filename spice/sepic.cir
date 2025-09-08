@@ -1,16 +1,19 @@
 .title SEPIC
+.include irf520n.spi
 .tran 1u 40m
-.model switch1 SW(Ron=.01 Roff=1Meg Vt=.001)
 .model diode1 D(BV=100 VJ=0.5)
+.save i(V1) v(out) v(PWM)
 R1 +24V n1 10m
 L1 n1 n2 2.8m
 C2 n2 n3 2.2u
 L2 n3 GND 2.8m
-s1 n2 GND PWM GND switch1 OFF
+xmos n2 PWM GND irf520n
 D1 n3 out diode1
 C3 out GND 220u
 Rload out GND 460
 
-V1 PWM GND PULSE(0 10 0 1n 1n 11u 16.66u)
+Rp PWM1 PWM 220
+
+V1 PWM1 GND PULSE(0 12 0 1n 1n 6u 16.66u)
 V2 +24V GND DC 24
 .end
