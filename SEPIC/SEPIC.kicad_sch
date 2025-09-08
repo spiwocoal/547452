@@ -3617,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 92.71 80.01)
+			(xy 88.9 85.09) (xy 92.71 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3777,23 +3777,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 74.93)
+			(xy 100.33 67.31) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "891782c5-0ba0-410d-b6af-90e1585e8538")
-	)
-	(wire
-		(pts
-			(xy 100.33 85.09) (xy 100.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b419920-57c9-4ecd-aa4d-bca71a2e1e73")
 	)
 	(wire
 		(pts
@@ -3884,6 +3874,16 @@
 			(type default)
 		)
 		(uuid "ba799ab2-d8eb-4e36-aef4-2aa76dd9183a")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6cd4ec-8389-464b-9481-d3134121264f")
 	)
 	(wire
 		(pts
@@ -4015,9 +4015,19 @@
 		)
 		(uuid "fc47c4c0-ed6c-4046-a158-23e0e1f8325a")
 	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 100.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8c9522-2a47-4df3-925b-57df679bfe72")
+	)
 	(global_label "PWM"
 		(shape input)
-		(at 88.9 80.01 180)
+		(at 88.9 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4027,7 +4037,7 @@
 		)
 		(uuid "451c5310-2517-4004-a080-2c20ed5c9ac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.742 80.01 0)
+			(at 81.742 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "138481e8-5e8f-41a7-a8a3-48048e5419e4")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 107.95 73.914 90)
 			(effects
 				(font
@@ -4198,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -4234,7 +4244,7 @@
 		(instances
 			(project ""
 				(path "/cb0f21c9-e6cc-49b2-a40a-07d77f15ad11"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "6"
 			(at 123.19 34.544 90)
 			(effects
 				(font
@@ -5630,6 +5640,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 100.33 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d42ee4fb-3b60-4a73-9557-502fba90145e")
+		(property "Reference" "TP2"
+			(at 95.25 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shunt"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f85ec040-6f4a-44cc-8390-0c527c8b9ed6")
+		)
+		(pin "1"
+			(uuid "4dc4bf35-0728-4ab7-aeaf-29b5f32ad846")
+		)
+		(instances
+			(project "SEPIC"
+				(path "/cb0f21c9-e6cc-49b2-a40a-07d77f15ad11"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 113.03 30.48 0)
 		(unit 1)
@@ -5857,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -5969,7 +6049,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 97.79 80.01 0)
+		(at 97.79 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5977,7 +6057,7 @@
 		(dnp no)
 		(uuid "f460d95c-ca20-4b4f-9cf5-ec2df73ffa3f")
 		(property "Reference" "Q1"
-			(at 101.854 77.978 0)
+			(at 103.124 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +6066,7 @@
 			)
 		)
 		(property "Value" "IRF520N"
-			(at 102.362 80.01 0)
+			(at 89.154 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 102.87 77.47 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irf520n-datasheet-en.pdf"
-			(at 97.79 92.71 0)
+			(at 97.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6093,7 @@
 			)
 		)
 		(property "Description" "Transistor MOSFET canal N"
-			(at 97.79 80.01 0)
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6102,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 97.79 97.155 0)
+			(at 97.79 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6111,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 97.79 99.06 0)
+			(at 97.79 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6120,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 97.79 95.25 0)
+			(at 97.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
