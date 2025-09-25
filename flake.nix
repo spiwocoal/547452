@@ -16,8 +16,10 @@
             planner
             ngspice
             kicad
-            xyce-parallel
-            gnucap-full
+            gnuplot
+            cairo
+            feh
+            imagemagick
           ];
         };
       }

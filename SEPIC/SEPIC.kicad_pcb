@@ -227,7 +227,7 @@
 		(at 72.25 82.25)
 		(descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "d4452b7b-1353-4cf9-8e42-58b3af415888")
@@ -238,7 +238,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "c560309c-4bf7-44ff-bcbf-03e8fbb48b14")
@@ -2262,14 +2262,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+	(footprint "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "3f12abe5-1157-46f5-a00d-414ea3f3e906")
-		(at 72.25 73.5)
-		(descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
-		(tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C5"
-			(at 1.75 -5.25 0)
+		(at 73 73.5)
+		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Non-Polar Electrolytic Capacitor")
+		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Non-Polar Electrolytic Capacitor")
+		(property "Reference" "C4"
+			(at 1.25 -4.4 0)
 			(layer "F.SilkS")
 			(uuid "b7f39d21-6b86-4d66-978f-0907fe1f739c")
 			(effects
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 1.75 5.25 0)
+			(at 1.25 4.4 0)
 			(layer "F.Fab")
 			(uuid "d4d175c5-716f-401e-9466-a62fbf49106f")
 			(effects
@@ -2320,40 +2320,40 @@
 		(sheetfile "SEPIC.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 1.75 0)
-			(end 5.87 0)
+			(center 1.25 0)
+			(end 4.52 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "8c897836-a47b-4b09-b7f4-0c62b17ece40")
+			(uuid "f3f95011-d0ad-4f57-8390-432b98a841aa")
 		)
 		(fp_circle
-			(center 1.75 0)
-			(end 6 0)
+			(center 1.25 0)
+			(end 4.65 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ac9c060a-5e00-4b47-9ab6-82f9aeaf9618")
+			(uuid "0dbb2b3f-6f7b-40af-b400-fb7d033e8f91")
 		)
 		(fp_circle
-			(center 1.75 0)
-			(end 5.75 0)
+			(center 1.25 0)
+			(end 4.4 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c66bd3b0-bb11-45f0-923f-0bbddd43a9c5")
+			(uuid "1deac2fb-c327-4c44-9815-33d414d104cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 0)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "eed3782b-0da1-4f76-ae8a-e862d47d24f7")
 			(effects
@@ -2365,7 +2365,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
+			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -2374,8 +2374,8 @@
 			(uuid "3ac81f87-eaf2-41dd-a3bd-4085d693b11f")
 		)
 		(pad "2" thru_hole circle
-			(at 3.5 0)
-			(size 2 2)
+			(at 2.5 0)
+			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -2384,7 +2384,7 @@
 			(uuid "573c120f-1e8f-4bd3-85fb-30558a78552e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D8.0mm_H11.5mm_P3.50mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H7.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2711,7 +2711,7 @@
 		(at 72.25 64.75)
 		(descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
 			(uuid "e30dd16b-1704-4348-a492-946141504a92")
@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 1.75 5.25 0)
 			(layer "F.Fab")
 			(uuid "9d9456ef-0050-48bd-a04f-8cb960c6a91b")
@@ -4414,7 +4414,7 @@
 		(at 73 30.5)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 2.5 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "c5976f5e-7ade-45ce-a099-1289c82874ce")
@@ -7741,24 +7741,24 @@
 				(xy 72.410703 48.684648) (xy 72.417181 48.69068) (xy 75.840536 52.114035) (xy 75.965965 52.239464)
 				(xy 76.113453 52.338013) (xy 76.113454 52.338013) (xy 76.113455 52.338014) (xy 76.161452 52.357895)
 				(xy 76.277334 52.405895) (xy 76.451304 52.440499) (xy 76.451308 52.4405) (xy 76.451309 52.4405)
-				(xy 79.054242 52.4405) (xy 79.121281 52.460185) (xy 79.141923 52.476819) (xy 79.235213 52.570109)
-				(xy 79.407179 52.695048) (xy 79.407181 52.695049) (xy 79.407184 52.695051) (xy 79.596588 52.791557)
-				(xy 79.798757 52.857246) (xy 80.008713 52.8905) (xy 80.008714 52.8905) (xy 80.221286 52.8905) (xy 80.221287 52.8905)
-				(xy 80.431243 52.857246) (xy 80.633412 52.791557) (xy 80.719206 52.747842) (xy 80.787874 52.734947)
-				(xy 80.852614 52.761223) (xy 80.892872 52.818329) (xy 80.8995 52.858328) (xy 80.8995 53.725637)
-				(xy 80.879815 53.792676) (xy 80.863181 53.813318) (xy 79.965817 54.710681) (xy 79.904494 54.744166)
-				(xy 79.878136 54.747) (xy 79.452129 54.747) (xy 79.452123 54.747001) (xy 79.392516 54.753408) (xy 79.257671 54.803702)
-				(xy 79.257664 54.803706) (xy 79.142455 54.889952) (xy 79.142452 54.889955) (xy 79.056206 55.005164)
-				(xy 79.056202 55.005171) (xy 79.005908 55.140017) (xy 78.999501 55.199616) (xy 78.9995 55.199635)
-				(xy 78.9995 57.20037) (xy 78.999501 57.200376) (xy 79.005908 57.259983) (xy 79.056202 57.394828)
-				(xy 79.056206 57.394835) (xy 79.142452 57.510044) (xy 79.142455 57.510047) (xy 79.257664 57.596293)
-				(xy 79.257671 57.596297) (xy 79.392517 57.646591) (xy 79.392516 57.646591) (xy 79.399444 57.647335)
-				(xy 79.452127 57.653) (xy 81.547872 57.652999) (xy 81.607483 57.646591) (xy 81.742331 57.596296)
-				(xy 81.801688 57.55186) (xy 81.867153 57.527443) (xy 81.935426 57.542294) (xy 81.984832 57.591699)
-				(xy 82 57.651127) (xy 82 59.486138) (xy 81.980315 59.553177) (xy 81.963681 59.573819) (xy 81.773819 59.763681)
-				(xy 81.712496 59.797166) (xy 81.686138 59.8) (xy 61.151362 59.8) (xy 61.084323 59.780315) (xy 61.063681 59.763681)
-				(xy 60.841819 59.541819) (xy 60.808334 59.480496) (xy 60.8055 59.454138) (xy 60.8055 57.868168)
-				(xy 66.72841 57.868168) (xy 77.68357 57.868168) (xy 77.68357 52.755661) (xy 66.72841 52.755661)
+				(xy 76.628692 52.4405) (xy 79.054242 52.4405) (xy 79.121281 52.460185) (xy 79.141923 52.476819)
+				(xy 79.235213 52.570109) (xy 79.407179 52.695048) (xy 79.407181 52.695049) (xy 79.407184 52.695051)
+				(xy 79.596588 52.791557) (xy 79.798757 52.857246) (xy 80.008713 52.8905) (xy 80.008714 52.8905)
+				(xy 80.221286 52.8905) (xy 80.221287 52.8905) (xy 80.431243 52.857246) (xy 80.633412 52.791557)
+				(xy 80.719206 52.747842) (xy 80.787874 52.734947) (xy 80.852614 52.761223) (xy 80.892872 52.818329)
+				(xy 80.8995 52.858328) (xy 80.8995 53.725637) (xy 80.879815 53.792676) (xy 80.863181 53.813318)
+				(xy 79.965817 54.710681) (xy 79.904494 54.744166) (xy 79.878136 54.747) (xy 79.452129 54.747) (xy 79.452123 54.747001)
+				(xy 79.392516 54.753408) (xy 79.257671 54.803702) (xy 79.257664 54.803706) (xy 79.142455 54.889952)
+				(xy 79.142452 54.889955) (xy 79.056206 55.005164) (xy 79.056202 55.005171) (xy 79.005908 55.140017)
+				(xy 78.999501 55.199616) (xy 78.9995 55.199635) (xy 78.9995 57.20037) (xy 78.999501 57.200376) (xy 79.005908 57.259983)
+				(xy 79.056202 57.394828) (xy 79.056206 57.394835) (xy 79.142452 57.510044) (xy 79.142455 57.510047)
+				(xy 79.257664 57.596293) (xy 79.257671 57.596297) (xy 79.392517 57.646591) (xy 79.392516 57.646591)
+				(xy 79.399444 57.647335) (xy 79.452127 57.653) (xy 81.547872 57.652999) (xy 81.607483 57.646591)
+				(xy 81.742331 57.596296) (xy 81.801688 57.55186) (xy 81.867153 57.527443) (xy 81.935426 57.542294)
+				(xy 81.984832 57.591699) (xy 82 57.651127) (xy 82 59.486138) (xy 81.980315 59.553177) (xy 81.963681 59.573819)
+				(xy 81.773819 59.763681) (xy 81.712496 59.797166) (xy 81.686138 59.8) (xy 61.151362 59.8) (xy 61.084323 59.780315)
+				(xy 61.063681 59.763681) (xy 60.841819 59.541819) (xy 60.808334 59.480496) (xy 60.8055 59.454138)
+				(xy 60.8055 57.868168) (xy 66.72841 57.868168) (xy 77.68357 57.868168) (xy 77.68357 52.755661) (xy 66.72841 52.755661)
 				(xy 66.72841 57.868168) (xy 60.8055 57.868168) (xy 60.8055 50.960745) (xy 60.814144 50.931304) (xy 60.820668 50.901318)
 				(xy 60.824422 50.896302) (xy 60.825185 50.893706) (xy 60.841819 50.873064) (xy 60.873064 50.841819)
 				(xy 60.934387 50.808334) (xy 60.960745 50.8055) (xy 70.943723 50.8055) (xy 70.943732 50.8055) (xy 71.014456 50.800528)
