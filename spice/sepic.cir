@@ -8,7 +8,7 @@
 
 .param freq=60k
 .param vi=24
-.param vo=12
+.param vo=48
 .param po=5
 .param vfwd=0.364
 .param duty={(vo + vfwd) / (vi + vo + vfwd)}
@@ -40,11 +40,5 @@ R1 vin n1 10m
 
 V2 pwmin GND PULSE(0 12 0 1n 1n {(duty*(1/freq))} {1/freq})
 Rpwm pwmin PWM 6
-*V2 VCC GND 12
-*Cdrv VCC GND 0.1u
-**     1    2      3     4   5   6   7   8
-*xdrv GND drvcat drvand GND GND PWM PWM VCC HCPL_3120
-*V3 pwmin drvand1 PULSE(0 5 0 1n 1n {(duty*(1/freq))} {1/freq})
-*Rdr2 drvand1 drvand 1m
-*Rdrv pwmin drvcat 220
+
 .end
