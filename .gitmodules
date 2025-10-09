@@ -1,0 +1,3 @@
+[submodule "pic-src/mla_usb"]
+	path = pic-src/mla_usb
+	url = https://github.com/MicrochipTech/mla_usb.git

@@ -40,5 +40,10 @@ fp-info-cache
 *.kicad_prl
 
 .direnv
-.envrc
+
+# ngspice generated plot data
 *.data
+
+# MPLABX build directories
+build
+dist
