@@ -20,6 +20,8 @@
             cairo
             feh
             imagemagick
+            openscad
+            prusa-slicer
           ];
         };
       }
