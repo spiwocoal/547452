@@ -1,0 +1,18 @@
+.ISZ230N10NM6ATMA1 :1 ;Power MOSFET, N Channel, 100 V, 31 A, 0.0196 ohm, TSDSON-FL, Surface Mount
+ISZ230N10NM6ATMA1
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4" 9="D_5" 10="S_4"
+*MXP 10
+*DFN ISZ230N10NM6ATMA1
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (ISZ230N10NM6ATMA1)
+~!Mouser Part Number (726-ISZ230N10NM6ATMA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/ISZ230N10NM6ATMA1?qs=QNEnbhJQKva40xihFpvF9Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-ISZ230N10NM6-DataSheet-v02_00-EN.pdf?fileId=8ac78c8c7bb971ed017bba7c28d202ac)
+~!Height (1.1mm)
+~!3D_Model (ISZ230N10NM6ATMA1)
+ISZ230N10NM6ATMA1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

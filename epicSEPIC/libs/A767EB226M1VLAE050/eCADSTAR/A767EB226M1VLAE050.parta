@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_16220186"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:59:54)
+    (utime 2024-05-08-03:59:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "A767EB226M1VLAE050")
+)
+
+
+(pinAssign "ECS_16220186"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:59:54)
+    (utime 2024-05-08-03:59:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16220186")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "A767EB226M1VLAE050")
+)
+
+
+(part "A767EB226M1VLAE050"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:59:54)
+    (utime 2024-05-08-03:59:55)
+    (packageRef "A767EB226M1VLAE050")
+    (pinAssignRef "ECS_16220186")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "A767, Aluminum, Polymer Aluminum, 22 uF, 20%, 35 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 50 mOhms, 300 uA, 6.3mm, 5.7mm, 1000")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "A767EB226M1VLAE050")
+    (property "Mouser_Part_Number" "80-A767EB226M1VLAE50")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A767EB226M1VLAE050?qs=M6jHmRuQorUGRyLC6r3dXQ%3D%3D")
+    (property "Arrow_Part_Number" "A767EB226M1VLAE050")
+    (property "Arrow_Price/Stock" "null?region=nac")
+    (property "Datasheet_Link" "https://search.kemet.com/component-documentation/download/specsheet/A767EB226M1VLAE050")
+    (property "compAreaTopHeight" 6)
+)
+
+

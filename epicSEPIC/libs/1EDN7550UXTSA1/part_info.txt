@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=1EDN7550UXTSA1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=7.1
+Released=2020-05-08 10:51:11
+Downloaded=2025-10-18 22:38:25
+3D=Y

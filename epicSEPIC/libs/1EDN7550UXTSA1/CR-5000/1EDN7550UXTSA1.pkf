@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "1EDN7550UXTSA1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "1EDN7550UXTSA1")
+        (spec "default")
+    )
+)

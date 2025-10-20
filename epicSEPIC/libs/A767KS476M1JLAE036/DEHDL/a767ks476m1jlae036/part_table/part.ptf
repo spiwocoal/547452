@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A767KS476M1JLAE036'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "A767KS476M1JLAE036" (!) = "", "CAPAE830X1250N", "Capacitor Al Electrolytic", "80-A767KS476M1JLAE36", "https://www.mouser.co.uk/ProductDetail/KEMET/A767KS476M1JLAE036?qs=YCa%2FAAYMW03EOWyJElp5Ng%3D%3D", "A767KS476M1JLAE036", "https://www.arrow.com/en/products/a767ks476m1jlae036/kemet-corporation", "Surface mount form factor  Ultra low impedance  High ripple current  High voltage  105C/2,000 hours  RoHS compliant  Halogen-free", "https://www.mouser.se/datasheet/2/447/KEM_A4071_A767-3316693.pdf", "12.5 mm"
+END_PART
+
+END.

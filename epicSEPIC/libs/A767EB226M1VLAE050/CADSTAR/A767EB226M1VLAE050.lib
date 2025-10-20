@@ -1,0 +1,18 @@
+.A767EB226M1VLAE050 :1 ;A767, Aluminum, Polymer Aluminum, 22 uF, 20%, 35 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 50 mOhms, 300 uA, 6.3mm, 5.7mm, 1000
+CAPAE660X600N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN A767EB226M1VLAE050
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (A767EB226M1VLAE050)
+~!Mouser Part Number (80-A767EB226M1VLAE50)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/A767EB226M1VLAE050?qs=M6jHmRuQorUGRyLC6r3dXQ%3D%3D)
+~!Arrow Part Number (A767EB226M1VLAE050)
+~!Link Arrow Price/Stock (null?region=nac)
+~!Link Datasheet (https://search.kemet.com/component-documentation/download/specsheet/A767EB226M1VLAE050)
+~!Height (6mm)
+~!3D_Model (A767EB226M1VLAE050)
+A767EB226M1VLAE050
+1.1!U 2.1!U 

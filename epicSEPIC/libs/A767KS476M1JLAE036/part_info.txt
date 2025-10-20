@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=A767KS476M1JLAE036
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2024-11-06 10:12:55
+Downloaded=2025-10-19 00:27:00
+3D=Y

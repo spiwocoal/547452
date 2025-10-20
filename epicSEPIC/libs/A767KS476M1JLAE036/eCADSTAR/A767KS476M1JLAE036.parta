@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1027729"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-06-10:12:55)
+    (utime 2024-11-06-10:12:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "A767KS476M1JLAE036")
+)
+
+
+(pinAssign "ECS_1027729"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-06-10:12:55)
+    (utime 2024-11-06-10:12:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1027729")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "A767KS476M1JLAE036")
+)
+
+
+(part "A767KS476M1JLAE036"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-06-10:12:55)
+    (utime 2024-11-06-10:12:55)
+    (packageRef "A767KS476M1JLAE036")
+    (pinAssignRef "ECS_1027729")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Surface mount form factor  Ultra low impedance  High ripple current  High voltage  105C/2,000 hours  RoHS compliant  Halogen-free")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "A767KS476M1JLAE036")
+    (property "Mouser_Part_Number" "80-A767KS476M1JLAE36")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A767KS476M1JLAE036?qs=YCa%2FAAYMW03EOWyJElp5Ng%3D%3D")
+    (property "Arrow_Part_Number" "A767KS476M1JLAE036")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/a767ks476m1jlae036/kemet-corporation")
+    (property "Datasheet_Link" "https://www.mouser.se/datasheet/2/447/KEM_A4071_A767-3316693.pdf")
+    (property "compAreaTopHeight" 12.5)
+)
+
+

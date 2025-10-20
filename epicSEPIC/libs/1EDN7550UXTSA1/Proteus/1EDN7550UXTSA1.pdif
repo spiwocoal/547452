@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1EDN7550UXTSA1"
+   (description "IC GATE DRVR HIGH-SIDE 6XFDFN")
+   (family "ANA")
+   (package "1EDN7550UXTSA1")
+   (attribute "Datasheet Link" "https://www.infineon.com/dgdl/Infineon-1EDN7550U-DataSheet-v02_02-EN.pdf?fileId=5546d462700c0ae60170522057e14b61")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "1EDN7550UXTSA1")
+   (attribute "Mouser Part Number" "726-1EDN7550UXTSA1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDN7550UXTSA1?qs=vHuUswq2%252BsxVuatVX7bkPw%3D%3D")
+   (attribute "Arrow Part Number" "1EDN7550UXTSA1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/1edn7550uxtsa1/infineon-technologies-ag")
+   (gate
+    (symbol "1EDN7550UXTSA1")
+    (pin "IN-" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "IN+" 3 PS)
+    (pin "VDD" 4 PS)
+    (pin "OUT_SRC" 5 PS)
+    (pin "OUT_SNK" 6 PS)
+   )
+  )
+  (symbol "1EDN7550UXTSA1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1EDN7550UXTSA1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.55 0.75)
+      (pt 0.55 0.75)
+      (pt 0.55 -0.75)
+      (pt -0.55 -0.75)
+      (pt -0.55 0.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.4 1.225)
+      (pt 1.05 1.225)
+      (pt 1.05 -1.225)
+      (pt -1.4 -1.225)
+      (pt -1.4 1.225))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.6)
+      (arc (pt -1.000 0.600) (pt -1.100 0.400) (pt -0.900 0.600) (start 180.0) (sweep 90.0))
+      (pt -1 0.4)
+      (arc (pt -1.000 0.400) (pt -1.100 0.400) (pt -0.900 0.600) (start 180.0) (sweep -90.0))
+      (pt -1 0.6))))
+   (leg 1 (pt -0.300 0.500) (padstack 0))
+   (leg 2 (pt -0.300 0.000) (padstack 0))
+   (leg 3 (pt -0.300 -0.500) (padstack 0))
+   (leg 4 (pt 0.300 -0.500) (padstack 0))
+   (leg 5 (pt 0.300 0.000) (padstack 0))
+   (leg 6 (pt 0.300 0.500) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 0.350))
+   )
+   (model "1EDN7550UXTSA1.stp"
+    (euler 0 0 0)
+    (offset 0.019999999552965164 -0.029999999329447746 0)
+   )
+  )
+ )
+)

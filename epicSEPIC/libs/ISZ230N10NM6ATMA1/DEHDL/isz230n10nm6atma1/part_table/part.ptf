@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ISZ230N10NM6ATMA1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "ISZ230N10NM6ATMA1" (!) = "", "ISZ230N10NM6ATMA1", "Other", "726-ISZ230N10NM6ATMA", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/ISZ230N10NM6ATMA1?qs=QNEnbhJQKva40xihFpvF9Q%3D%3D", "", "", "Power MOSFET, N Channel, 100 V, 31 A, 0.0196 ohm, TSDSON-FL, Surface Mount", "https://www.infineon.com/dgdl/Infineon-ISZ230N10NM6-DataSheet-v02_00-EN.pdf?fileId=8ac78c8c7bb971ed017bba7c28d202ac", "1.1 mm"
+END_PART
+
+END.

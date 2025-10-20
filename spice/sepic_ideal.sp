@@ -1,30 +1,37 @@
-.title SEPIC
+.title Convertidor DC/DC SEPIC
 .include irf520n.spi
+.include AvagoHCPL3120_MOD.txt
+
 .tran 1u 200m
-.model diode1 D(BV=100 VJ=0.5)
-.save i(V1) v(out) v(PWM)
-.param vi=24
-.param vo=12
-.param vfwd=0.5
-.param duty={(vo + vfwd) / (vi + vo + vfwd)}
+
+.model diode1 D(BV=100 VJ=0.364)
+
 .param freq=60k
+.param vi=24
+.param vo=24
+.param po=5
+.param vfwd=0.364
+.param duty={(vo + vfwd) / (vi + vo + vfwd)}
+.param rld={vo^2 / po}
 
-R1 +24V n1 10m
-L1 n1 n2 1.54m
+R1 vin n1 10m
+L1 n1 n2 1.8m
 C2 n2 n3 1.015u
-L2 n3 GND 1.54m
+
 xmos n2 PWM GND irf520n
+
+L2 GND n3 1.8m
 D1 n3 out diode1
-Resr1 out nco1 1.3
-C3 nco1 GND 12u
-Resr2 out nco2 1.3
-C4 nco2 GND 12u
-Resr3 out nco3 1.3
-C5 nco3 GND 12u
-Rload out GND 28.8
 
-Rp PWM1 PWM 220
+K12 L1 L2 1
 
-V1 PWM1 GND PULSE(0 12 0 1n 1n {(duty*(1/freq))} {1/freq})
-V2 +24V GND DC 24
+C3 out GND 36u
+
+Rload out GND {rld}
+
+V1 vin GND DC {vi}
+
+V2 pwmin GND PULSE(0 12 0 1n 1n {(duty*(1/freq))} {1/freq})
+Rp pwmin PWM 220
+
 .end

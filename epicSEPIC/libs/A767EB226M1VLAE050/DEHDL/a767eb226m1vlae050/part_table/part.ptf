@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A767EB226M1VLAE050'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "A767EB226M1VLAE050" (!) = "", "CAPAE660X600N", "Capacitor Al Electrolytic", "80-A767EB226M1VLAE50", "https://www.mouser.co.uk/ProductDetail/KEMET/A767EB226M1VLAE050?qs=M6jHmRuQorUGRyLC6r3dXQ%3D%3D", "A767EB226M1VLAE050", "null?region=nac", "A767, Aluminum, Polymer Aluminum, 22 uF, 20%, 35 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 50 mOhms, 300 uA, 6.3mm, 5.7mm, 1000", "https://search.kemet.com/component-documentation/download/specsheet/A767EB226M1VLAE050", "6 mm"
+END_PART
+
+END.

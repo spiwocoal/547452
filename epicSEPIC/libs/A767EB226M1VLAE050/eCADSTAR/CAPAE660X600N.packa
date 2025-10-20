@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "A767EB226M1VLAE050"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-05-08-03:59:55)
+    (mountForm default
+        (footprintRef "CAPAE660X600N")
+        (spec "System")
+    )
+)

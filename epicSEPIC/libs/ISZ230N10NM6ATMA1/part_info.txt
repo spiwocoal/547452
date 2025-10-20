@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=ISZ230N10NM6ATMA1
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=10
+Version=2.1
+Released=2022-06-17 05:04:19
+Downloaded=2025-10-18 22:36:37
+3D=Y

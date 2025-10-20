@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A767KS476M1JLAE036
+D Surface mount form factor  Ultra low impedance  High ripple current  High voltage  105C/2,000 hours  RoHS compliant  Halogen-free
+K
+F https://www.mouser.se/datasheet/2/447/KEM_A4071_A767-3316693.pdf
+$ENDCMP
+#
+#End Doc Library

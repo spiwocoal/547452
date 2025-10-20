@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=A767EB226M1VLAE050
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=3.1
+Released=2024-05-08 03:59:54
+Downloaded=2025-10-19 00:25:31
+3D=Y

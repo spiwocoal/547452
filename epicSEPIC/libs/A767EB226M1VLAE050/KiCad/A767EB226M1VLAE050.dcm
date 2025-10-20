@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A767EB226M1VLAE050
+D A767, Aluminum, Polymer Aluminum, 22 uF, 20%, 35 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 50 mOhms, 300 uA, 6.3mm, 5.7mm, 1000
+K
+F https://search.kemet.com/component-documentation/download/specsheet/A767EB226M1VLAE050
+$ENDCMP
+#
+#End Doc Library

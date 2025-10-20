@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ISZ230N10NM6ATMA1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ISZ230N10NM6ATMA1")
+        (spec "default")
+    )
+)

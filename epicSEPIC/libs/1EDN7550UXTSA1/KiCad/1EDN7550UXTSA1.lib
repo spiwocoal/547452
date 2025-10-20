@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1EDN7550UXTSA1
+#/11541594/1798727/2.50/6/2/Integrated Circuit
+DEF 1EDN7550UXTSA1 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "1EDN7550UXTSA1" 1050 200 50 H V L CNN
+F2 "1EDN7550UXTSA1" 1050 100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-1EDN7550U-DataSheet-v02_02-EN.pdf?fileId=5546d462700c0ae60170522057e14b61" 1050 0 50 H I L CNN
+F4 "IC GATE DRVR HIGH-SIDE 6XFDFN" 1050 -100 50 H I L CNN "Description"
+F5 "0.4" 1050 -200 50 H I L CNN "Height"
+F6 "Infineon" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1EDN7550UXTSA1" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-1EDN7550UXTSA1" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDN7550UXTSA1?qs=vHuUswq2%252BsxVuatVX7bkPw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1EDN7550UXTSA1" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1edn7550uxtsa1/infineon-technologies-ag" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN- 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X IN+ 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 1200 -200 200 L 50 50 0 0 P
+X OUT_SRC 5 1200 -100 200 L 50 50 0 0 P
+X OUT_SNK 6 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

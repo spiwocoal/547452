@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1EDN7550UXTSA1
+D IC GATE DRVR HIGH-SIDE 6XFDFN
+K
+F https://www.infineon.com/dgdl/Infineon-1EDN7550U-DataSheet-v02_02-EN.pdf?fileId=5546d462700c0ae60170522057e14b61
+$ENDCMP
+#
+#End Doc Library

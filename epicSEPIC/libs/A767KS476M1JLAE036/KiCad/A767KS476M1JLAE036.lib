@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model A767KS476M1JLAE036
+#/1027729/1798727/2.50/2/3/Capacitor Polarised
+DEF A767KS476M1JLAE036 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "A767KS476M1JLAE036" 350 150 50 H V L CNN
+F2 "CAPAE830X1250N" 350 50 50 H I L CNN
+F3 "https://www.mouser.se/datasheet/2/447/KEM_A4071_A767-3316693.pdf" 350 -50 50 H I L CNN
+F4 "Surface mount form factor  Ultra low impedance  High ripple current  High voltage  105C/2,000 hours  RoHS compliant  Halogen-free" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "KEMET" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "A767KS476M1JLAE036" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-A767KS476M1JLAE36" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/A767KS476M1JLAE036?qs=YCa%2FAAYMW03EOWyJElp5Ng%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "A767KS476M1JLAE036" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/a767ks476m1jlae036/kemet-corporation" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
