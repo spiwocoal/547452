@@ -1,5 +1,6 @@
 {
   inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     utils.url = "github:numtide/flake-utils";
   };
   outputs = {
@@ -11,19 +12,18 @@
       system: let
         pkgs = import nixpkgs {inherit system;};
       in {
-        devShell = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            planner
-            ngspice
-            kicad
-            gnuplot
-            cairo
-            feh
-            imagemagick
-            openscad
-            prusa-slicer
-          ];
-        };
+        devShells.default = with pkgs;
+          mkShell {
+            buildInputs = [
+              # planner
+              ngspice
+              gnuplot
+              cairo
+              feh
+              imagemagick
+              openscad
+            ];
+          };
       }
     );
 }

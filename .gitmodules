@@ -1,3 +1,6 @@
 [submodule "pic-src/mla_usb"]
 	path = pic-src/mla_usb
 	url = https://github.com/MicrochipTech/mla_usb.git
+[submodule "gui-src"]
+	path = gui-src
+	url = git@github.com:spiwocoal/sepic-gui.git
