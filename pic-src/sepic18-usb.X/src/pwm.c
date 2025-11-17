@@ -47,7 +47,11 @@ void pwm_set_frequency(freq_t freq) {
 void pwm_set_dutycycle(duty_t duty) {
     uint16_t ccpr = duty2ccpr(duty);
     CCPR2L = (uint8_t)(ccpr >> 2);
-    CCP2CONbits.DC2B = duty & 0b11;Q
+    CCP2CONbits.DC2B = duty & 0b11;
+}
+
+void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan) {
+    
 }
 
 inline uint8_t freq2pr2(freq_t freq) {

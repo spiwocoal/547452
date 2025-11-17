@@ -37,9 +37,9 @@ static uint8_t readBuffer[CDC_DATA_OUT_EP_SIZE];
 static uint8_t writeBuffer[CDC_DATA_IN_EP_SIZE];
 
 /*********************************************************************
-* Function: void APP_DeviceCDCBasicDemoInitialize(void);
+* Function: void APP_SEPICInitialize(void);
 *
-* Overview: Initializes the demo code
+* Overview: Initializes application
 *
 * PreCondition: None
 *
@@ -57,20 +57,19 @@ void APP_SEPICInitialize()
 }
 
 /*********************************************************************
-* Function: void APP_DeviceCDCBasicDemoTasks(void);
+* Function: void APP_SEPICTasks(void);
 *
-* Overview: Keeps the demo running.
+* Overview: Keeps the application running.
 *
-* PreCondition: The demo should have been initialized and started via
-*   the APP_DeviceCDCBasicDemoInitialize() and APP_DeviceCDCBasicDemoStart() demos
-*   respectively.
+* PreCondition: The application should have been initialized and started via
+*   the APP_SEPICInitialize().
 *
 * Input: None
 *
 * Output: None
 *
 ********************************************************************/
-void APP_DeviceCDCBasicDemoTasks()
+void APP_SEPICTasks()
 {
     /* If the USB device isn't configured yet, we can't really do anything
      * else since we don't have a host to talk to.  So jump back to the
@@ -98,7 +97,7 @@ void APP_DeviceCDCBasicDemoTasks()
         char* stx;
         char* tok;
         
-        uint32_t arg0, arg1;
+        uint32_t arg0, arg1, arg2;
 
         numBytesRead = getsUSBUSART(readBuffer, sizeof(readBuffer));
 
@@ -117,6 +116,8 @@ void APP_DeviceCDCBasicDemoTasks()
                 sscanf(tok, "%llx", &arg0);
                 tok = strtok(NULL, " \x03");
                 sscanf(tok, "%llx", &arg1);
+                tok = strtok(NULL, " \x03");
+                sscanf(tok, "%llx", &arg2);
             } else {
                 strcpy(writeBuffer, "\x15");
             }

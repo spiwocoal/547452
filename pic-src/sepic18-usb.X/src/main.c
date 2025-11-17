@@ -69,7 +69,7 @@ MAIN_RETURN main(void)
         #endif
 
         //Application specific tasks
-//        APP_DeviceCDCBasicDemoTasks();
+        APP_SEPICTasks();
 
     }//end while
 }//end main

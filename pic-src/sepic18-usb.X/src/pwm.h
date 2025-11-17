@@ -57,10 +57,12 @@ typedef uint32_t fptd;
 
 typedef uint32_t freq_t;
 typedef fpt duty_t;
+typedef uint16_t time_t;
 
 void pwm_init(freq_t freq);
 void pwm_set_frequency(freq_t freq);
 void pwm_set_dutycycle(duty_t duty);
+void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan);
 
 uint8_t freq2pr2(freq_t freq);
 
