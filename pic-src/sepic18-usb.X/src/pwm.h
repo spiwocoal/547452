@@ -36,6 +36,7 @@
 
 typedef uint16_t fpt;
 typedef uint32_t fptd;
+typedef int32_t fptd_s;
 
 #define FPT_FBITS  (FPT_BITS - FPT_WBITS)
 #define FPT_FMASK  (((fpt)1 << FPT_FBITS) - 1)
@@ -55,9 +56,11 @@ typedef uint32_t fptd;
 #define _XTAL_FREQ 48000000UL
 #endif
 
-typedef uint32_t freq_t;
-typedef fpt duty_t;
-typedef uint16_t time_t;
+typedef uint32_t freq_t; // Frecuencia (Hz)
+typedef uint16_t time_t; // Tiempo (ms)
+
+typedef fpt duty_t;   // Duty cycle (%), Q7.9
+typedef fptd_s slope_t; // Pendiente (%/ms), Q15.16 con signo
 
 void pwm_init(freq_t freq);
 void pwm_set_frequency(freq_t freq);
@@ -65,6 +68,8 @@ void pwm_set_dutycycle(duty_t duty);
 void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan);
 
 uint8_t freq2pr2(freq_t freq);
+
+void PWMTasks();
 
 #endif	/* PWM_H */
 
