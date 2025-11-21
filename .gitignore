@@ -30,7 +30,6 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.xml
 *.csv
 
 # Archived Backups (KiCad 6.0)
@@ -45,5 +44,21 @@ fp-info-cache
 *.data
 
 # MPLABX build directories
-build
-dist
+**/*.X/~*.*
+**/*.X/build/
+**/*.X/debug/
+**/*.X/dist/
+**/*.X/disassembly/
+**/*.X/.generated_files/
+**/*.X/nbproject/private/
+**/*.X/nbproject/*.mk
+**/*.X/nbproject/*.bash
+**/*.X/nbproject/Makefile-genesis.properties
+**/*.X/queuelogs/
+
+# MCC specific
+**/*.X/*mc3.bak*
+**/*.X/*.bak*/
+
+# Large Files
+*.zip
