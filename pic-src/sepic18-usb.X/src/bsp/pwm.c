@@ -2,7 +2,7 @@
 
 #include <xc.h>
 
-#include "pwm.h"
+#include "bsp/pwm.h"
 #include "usb_device.h"
 
 #ifndef TMR2_PRESCALER
@@ -58,8 +58,8 @@ void pwm_set_frequency(freq_t freq) {
     PR2 = freq2pr2(freq);
 }
 
-void pwm_set_dutycycle(duty_t duty) {
-    uint16_t ccpr = duty2ccpr(duty);
+void pwm_set_dutycycle(duty_t duty, freq_t freq) {
+    uint16_t ccpr = duty2ccpr(duty, freq);
     CCPR2L = (uint8_t)(ccpr >> 2);
     CCP2CONbits.DC2B = duty & 0b11;
 }

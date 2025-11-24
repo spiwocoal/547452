@@ -21,10 +21,15 @@ please contact mla_licensing@microchip.com
 #include "system.h"
 
 #include "app_led_usb_status.h"
+#include "app_sepic_cdc.h"
 
 #include "usb.h"
 #include "usb_device.h"
 #include "usb_device_cdc.h"
+
+#include "bsp/pwm.h"
+
+freq_t frequency = 60000;
 
 /********************************************************************
  * Function:        void main(void)
@@ -47,6 +52,8 @@ MAIN_RETURN main(void)
 
     USBDeviceInit();
     USBDeviceAttach();
+
+    pwm_init(frequency);
     
     while(1)
     {
@@ -70,6 +77,7 @@ MAIN_RETURN main(void)
 
         //Application specific tasks
         APP_SEPICTasks();
+        PWMTasks();
 
     }//end while
 }//end main

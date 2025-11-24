@@ -33,4 +33,4 @@ MP_CC_DIR="/opt/microchip/xc8/v3.10/bin"
 MP_AS_DIR="/opt/microchip/xc8/v3.10/bin"
 MP_LD_DIR="/opt/microchip/xc8/v3.10/bin"
 MP_AR_DIR="/opt/microchip/xc8/v3.10/bin"
-DFP_DIR=/home/spiwocoal/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171
+DFP_DIR=/home/libvirt/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.7.171

@@ -3,15 +3,14 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>sepic18-usb</name>
-            <creation-uuid>021a4e57-b400-407c-bd69-3f9c50c3991d</creation-uuid>
+            <name>usb-sepic</name>
+            <creation-uuid>b20b58da-179c-43e5-9e77-0e4ca352e35f</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>./src</sourceRootElem>
+                <sourceRootElem>src</sourceRootElem>
                 <sourceRootElem>.</sourceRootElem>
-                <sourceRootElem>./src/usb</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

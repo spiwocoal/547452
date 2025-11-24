@@ -31,10 +31,14 @@ please contact mla_licensing@microchip.com
 #include "app_sepic_cdc.h"
 #include "usb_config.h"
 
+#include "bsp/pwm.h"
+
 /** VARIABLES ******************************************************/
 
 static uint8_t readBuffer[CDC_DATA_OUT_EP_SIZE];
 static uint8_t writeBuffer[CDC_DATA_IN_EP_SIZE];
+
+static freq_t frequency = 60000;
 
 /*********************************************************************
 * Function: void APP_SEPICInitialize(void);
@@ -108,9 +112,14 @@ void APP_SEPICTasks()
             } else if (!strcmp(tok, "DCS")) {
                 tok = strtok(NULL, " \x03");
                 sscanf(tok, "%llx", &arg0);
+                pwm_set_dutycycle((duty_t)arg0, frequency);
+                strcpy(writeBuffer, "\x06");
             } else if (!strcmp(tok, "FQS")) {
                 tok = strtok(NULL, " \x03");
                 sscanf(tok, "%llx", &arg0);
+                pwm_set_frequency((freq_t)arg0);
+                frequency = (freq_t)arg0;
+                strcpy(writeBuffer, "\x06");
             } else if (!strcmp(tok, "DCR")) {
                 tok = strtok(NULL, " \x03");
                 sscanf(tok, "%llx", &arg0);
@@ -118,6 +127,8 @@ void APP_SEPICTasks()
                 sscanf(tok, "%llx", &arg1);
                 tok = strtok(NULL, " \x03");
                 sscanf(tok, "%llx", &arg2);
+                pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2));
+                strcpy(writeBuffer, "\x06");
             } else {
                 strcpy(writeBuffer, "\x15");
             }
