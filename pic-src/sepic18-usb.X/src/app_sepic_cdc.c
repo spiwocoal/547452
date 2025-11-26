@@ -97,7 +97,7 @@ void APP_SEPICTasks()
      */
     if( USBUSARTIsTxTrfReady() == true)
     {
-        uint8_t numBytesRead;
+        uint8_t numBytesRead, numBytesWritten;
         char* stx;
         char* tok;
         char copia[64];
@@ -112,22 +112,23 @@ void APP_SEPICTasks()
         
 
         while ((stx = strchr(stx, 0x02)) != NULL) {
-            tok = strtok(++stx, " \x03\0");
+            tok = strtok(++stx, " \x03");
             if (!strcmp(tok, "\x05")) {
-                strcpy(writeBuffer, "\x06");
+                numBytesWritten = sprintf(writeBuffer, "\x06");
             } else if (!strcmp(tok, "DCS")) {
-                tok = strtok(NULL, " \x03\0");
-                sscanf(tok, "%llx", &arg0);
+                numBytesWritten = sprintf(writeBuffer, "\x06 %s | %s", copia, tok);
+                tok = strtok(NULL, " \x03");
+                sscanf(tok, "%lx", &arg0);
+                numBytesWritten += sprintf(writeBuffer + numBytesWritten, " %s | %#lx", tok, arg0);
                 pwm_set_dutycycle((duty_t)arg0, frequency);
-                sprintf(writeBuffer, "\x06 %s\x06 %s", copia, tok);
-                //strcpy(writeBuffer, "\x06 DCS");
+                numBytesWritten += sprintf(writeBuffer + numBytesWritten, " | %hhx", CCPR2L);
             } else if (!strcmp(tok, "FQS")) {
                 tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg0);
                 pwm_set_frequency((freq_t)arg0);
                 frequency = (freq_t)arg0;
                 strcpy(writeBuffer, "\x06 FQS");
-            } else if (!strcmp(tok, "DCR")) {
+            }/* else if (!strcmp(tok, "DCR")) {
                 tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg0);
                 tok = strtok(NULL, " \x03\0");
@@ -136,18 +137,18 @@ void APP_SEPICTasks()
                 sscanf(tok, "%llx", &arg2);
                 pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2), frequency);
                 strcpy(writeBuffer, "\x06 DCR");
-            } else {
+            }*/ else {
                 strcpy(writeBuffer, "\x15");
             }
         }
         
         if(numBytesRead > 0)
         {
-            putUSBUSART(writeBuffer,numBytesRead);
+            putUSBUSART(writeBuffer,numBytesWritten);
         }   
     }
     
-    PWMTasks(frequency);
+    // PWMTasks(frequency);
 
     CDCTxService();
 }
