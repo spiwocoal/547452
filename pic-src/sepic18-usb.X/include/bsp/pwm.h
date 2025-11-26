@@ -65,12 +65,12 @@ typedef fptd_s slope_t; // Pendiente (%/ms), Q15.16 con signo
 void pwm_init(freq_t freq);
 void pwm_set_frequency(freq_t freq);
 void pwm_set_dutycycle(duty_t duty, freq_t freq);
-void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan);
+void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan, freq_t freq);
 
 uint8_t freq2pr2(freq_t freq);
 uint16_t duty2ccpr(duty_t duty, freq_t freq);
 
-void PWMTasks();
+void PWMTasks(freq_t freq);
 
 #endif	/* PWM_H */
 

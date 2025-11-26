@@ -38,7 +38,7 @@ static duty_t duty_start, duty_end;
 static uint32_t ramp_start, ramp_end;
 static slope_t ramp_slope;
 
-static bool ramp_en;
+static bool ramp_en = false;
 
 #define SLOPE_MIN 1;
 
@@ -52,6 +52,8 @@ void pwm_init(freq_t freq) {
     T2CONbits.T2CKPS = TMR2_PRSC;
     TMR2ON = ENABLED;
     CCP2CONbits.CCP2M = PWM_MODE;
+
+    ramp_en = false;
 }
 
 void pwm_set_frequency(freq_t freq) {
@@ -64,7 +66,7 @@ void pwm_set_dutycycle(duty_t duty, freq_t freq) {
     CCP2CONbits.DC2B = duty & 0b11;
 }
 
-void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan) {
+void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan, freq_t freq) {
     ramp_start = USBGet1msTickCount();
     ramp_end = ramp_start + tspan;
     
@@ -77,15 +79,15 @@ void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan) {
     ramp_en = true;
 }
 
-inline uint8_t freq2pr2(freq_t freq) {
+uint8_t freq2pr2(freq_t freq) {
     return (uint8_t)((_XTAL_FREQ) / (freq * 4 * TMR2_PRESCALER)) - 1;
 }
 
-inline uint16_t duty2ccpr(duty_t duty, freq_t freq) {
+uint16_t duty2ccpr(duty_t duty, freq_t freq) {
     return (uint16_t)(((fptd)(duty) * ((_XTAL_FREQ / (freq * TMR2_PRESCALER)) - 1) / 100) >> 9);
 }
 
-void PWMTasks() {
+void PWMTasks(freq_t freq) {
     uint32_t ms_now, elapsed;
     duty_t duty;
     if (ramp_en) {
@@ -100,6 +102,6 @@ void PWMTasks() {
             duty = duty_end;
             ramp_end = false;
         }
-        pwm_set_dutycycle(duty);
+        pwm_set_dutycycle(duty, freq);
     }
 }

@@ -77,7 +77,6 @@ MAIN_RETURN main(void)
 
         //Application specific tasks
         APP_SEPICTasks();
-        PWMTasks();
 
     }//end while
 }//end main

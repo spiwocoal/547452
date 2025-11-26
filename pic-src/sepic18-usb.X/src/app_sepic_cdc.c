@@ -100,45 +100,54 @@ void APP_SEPICTasks()
         uint8_t numBytesRead;
         char* stx;
         char* tok;
+        char copia[64];
         
         uint32_t arg0, arg1, arg2;
 
         numBytesRead = getsUSBUSART(readBuffer, sizeof(readBuffer));
+        
+        strcpy(copia, readBuffer);
+        
+        stx = readBuffer;
+        
 
-        while ((stx = strchr(readBuffer, 0x02)) != NULL) {
-            tok = strtok(stx + 1, " \x03");
+        while ((stx = strchr(stx, 0x02)) != NULL) {
+            tok = strtok(++stx, " \x03\0");
             if (!strcmp(tok, "\x05")) {
-                strcpy(writeBuffer, "\x06SEPIC18PELELE");
+                strcpy(writeBuffer, "\x06");
             } else if (!strcmp(tok, "DCS")) {
-                tok = strtok(NULL, " \x03");
+                tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg0);
                 pwm_set_dutycycle((duty_t)arg0, frequency);
-                strcpy(writeBuffer, "\x06");
+                sprintf(writeBuffer, "\x06 %s\x06 %s", copia, tok);
+                //strcpy(writeBuffer, "\x06 DCS");
             } else if (!strcmp(tok, "FQS")) {
-                tok = strtok(NULL, " \x03");
+                tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg0);
                 pwm_set_frequency((freq_t)arg0);
                 frequency = (freq_t)arg0;
-                strcpy(writeBuffer, "\x06");
+                strcpy(writeBuffer, "\x06 FQS");
             } else if (!strcmp(tok, "DCR")) {
-                tok = strtok(NULL, " \x03");
+                tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg0);
-                tok = strtok(NULL, " \x03");
+                tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg1);
-                tok = strtok(NULL, " \x03");
+                tok = strtok(NULL, " \x03\0");
                 sscanf(tok, "%llx", &arg2);
-                pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2));
-                strcpy(writeBuffer, "\x06");
+                pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2), frequency);
+                strcpy(writeBuffer, "\x06 DCR");
             } else {
                 strcpy(writeBuffer, "\x15");
             }
-
-            if(numBytesRead > 0)
-            {
-                putUSBUSART(writeBuffer,numBytesRead);
-            }   
         }
+        
+        if(numBytesRead > 0)
+        {
+            putUSBUSART(writeBuffer,numBytesRead);
+        }   
     }
+    
+    PWMTasks(frequency);
 
     CDCTxService();
 }
