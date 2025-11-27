@@ -106,44 +106,44 @@ void APP_SEPICTasks()
 
         numBytesRead = getsUSBUSART(readBuffer, sizeof(readBuffer));
         
-        strcpy(copia, readBuffer);
-        
-        stx = readBuffer;
-        
-
-        while ((stx = strchr(stx, 0x02)) != NULL) {
-            tok = strtok(++stx, " \x03");
-            if (!strcmp(tok, "\x05")) {
-                numBytesWritten = sprintf(writeBuffer, "\x06");
-            } else if (!strcmp(tok, "DCS")) {
-                numBytesWritten = sprintf(writeBuffer, "\x06 %s | %s", copia, tok);
-                tok = strtok(NULL, " \x03");
-                sscanf(tok, "%lx", &arg0);
-                numBytesWritten += sprintf(writeBuffer + numBytesWritten, " %s | %#lx", tok, arg0);
-                pwm_set_dutycycle((duty_t)arg0, frequency);
-                numBytesWritten += sprintf(writeBuffer + numBytesWritten, " | %hhx", CCPR2L);
-            } else if (!strcmp(tok, "FQS")) {
-                tok = strtok(NULL, " \x03\0");
-                sscanf(tok, "%llx", &arg0);
-                pwm_set_frequency((freq_t)arg0);
-                frequency = (freq_t)arg0;
-                strcpy(writeBuffer, "\x06 FQS");
-            }/* else if (!strcmp(tok, "DCR")) {
-                tok = strtok(NULL, " \x03\0");
-                sscanf(tok, "%llx", &arg0);
-                tok = strtok(NULL, " \x03\0");
-                sscanf(tok, "%llx", &arg1);
-                tok = strtok(NULL, " \x03\0");
-                sscanf(tok, "%llx", &arg2);
-                pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2), frequency);
-                strcpy(writeBuffer, "\x06 DCR");
-            }*/ else {
-                strcpy(writeBuffer, "\x15");
-            }
-        }
-        
         if(numBytesRead > 0)
         {
+            strcpy(copia, readBuffer);
+        
+            stx = readBuffer;
+
+
+            while ((stx = strchr(stx, 0x02)) != NULL) {
+                tok = strtok(++stx, " \x03");
+                if (!strcmp(tok, "\x05")) {
+                    numBytesWritten = sprintf(writeBuffer, "\x06");
+                } else if (!strcmp(tok, "DCS")) {
+                    numBytesWritten = sprintf(writeBuffer, "\x06 %s | %s", copia, tok);
+                    tok = strtok(NULL, " \x03");
+                    sscanf(tok, "%lx", &arg0);
+                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, " %s | %#lx", tok, arg0);
+                    pwm_set_dutycycle((duty_t)arg0, frequency);
+                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, " | %hhx", CCPR2L);
+                } else if (!strcmp(tok, "FQS")) {
+                    tok = strtok(NULL, " \x03\0");
+                    sscanf(tok, "%llx", &arg0);
+                    pwm_set_frequency((freq_t)arg0);
+                    frequency = (freq_t)arg0;
+                    strcpy(writeBuffer, "\x06 FQS");
+                }/* else if (!strcmp(tok, "DCR")) {
+                    tok = strtok(NULL, " \x03\0");
+                    sscanf(tok, "%llx", &arg0);
+                    tok = strtok(NULL, " \x03\0");
+                    sscanf(tok, "%llx", &arg1);
+                    tok = strtok(NULL, " \x03\0");
+                    sscanf(tok, "%llx", &arg2);
+                    pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2), frequency);
+                    strcpy(writeBuffer, "\x06 DCR");
+                }*/ else {
+                    strcpy(writeBuffer, "\x15");
+                }
+            }
+            
             putUSBUSART(writeBuffer,numBytesWritten);
         }   
     }
