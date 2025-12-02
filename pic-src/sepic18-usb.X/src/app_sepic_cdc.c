@@ -39,6 +39,7 @@ static uint8_t readBuffer[CDC_DATA_OUT_EP_SIZE];
 static uint8_t writeBuffer[CDC_DATA_IN_EP_SIZE];
 
 static freq_t frequency = 60000;
+static duty_t duty_cycle = 0;
 
 /*********************************************************************
 * Function: void APP_SEPICInitialize(void);
@@ -100,7 +101,6 @@ void APP_SEPICTasks()
         uint8_t numBytesRead, numBytesWritten;
         char* stx;
         char* tok;
-        char copia[64];
         
         uint32_t arg0, arg1, arg2;
 
@@ -108,29 +108,28 @@ void APP_SEPICTasks()
         
         if(numBytesRead > 0)
         {
-            strcpy(copia, readBuffer);
-        
             stx = readBuffer;
-
 
             while ((stx = strchr(stx, 0x02)) != NULL) {
                 tok = strtok(++stx, " \x03");
                 if (!strcmp(tok, "\x05")) {
-                    numBytesWritten = sprintf(writeBuffer, "\x06");
+                    numBytesWritten = sprintf(writeBuffer, "\x06\x02");
+                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, "FRQ %lx\x03\x02", frequency);
+                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, "DTY %x\x03", duty_cycle);
                 } else if (!strcmp(tok, "DCS")) {
-                    numBytesWritten = sprintf(writeBuffer, "\x06 %s | %s", copia, tok);
                     tok = strtok(NULL, " \x03");
                     sscanf(tok, "%lx", &arg0);
-                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, " %s | %#lx", tok, arg0);
+                    duty_cycle = (duty_t)arg0;
                     pwm_set_dutycycle((duty_t)arg0, frequency);
-                    numBytesWritten += sprintf(writeBuffer + numBytesWritten, " | %hhx", CCPR2L);
+                    numBytesWritten = sprintf(writeBuffer, "\x06 DCS %x", (duty_t)arg0);
                 } else if (!strcmp(tok, "FQS")) {
                     tok = strtok(NULL, " \x03\0");
                     sscanf(tok, "%llx", &arg0);
-                    pwm_set_frequency((freq_t)arg0);
                     frequency = (freq_t)arg0;
-                    strcpy(writeBuffer, "\x06 FQS");
-                }/* else if (!strcmp(tok, "DCR")) {
+                    pwm_set_frequency(frequency);
+                    pwm_set_dutycycle(duty_cycle, frequency);
+                    numBytesWritten = sprintf(writeBuffer, "\x06 FQS %lx", (freq_t)arg0);
+                } else if (!strcmp(tok, "DCR")) {
                     tok = strtok(NULL, " \x03\0");
                     sscanf(tok, "%llx", &arg0);
                     tok = strtok(NULL, " \x03\0");
@@ -138,8 +137,8 @@ void APP_SEPICTasks()
                     tok = strtok(NULL, " \x03\0");
                     sscanf(tok, "%llx", &arg2);
                     pwm_interp_dutycycle((duty_t)arg0, (duty_t)arg1, (time_t)(arg2), frequency);
-                    strcpy(writeBuffer, "\x06 DCR");
-                }*/ else {
+                    numBytesWritten = sprintf(writeBuffer, "\x06 DCR %x %x %lx", (duty_t)arg0, (duty_t)arg1, (time_t)arg2);
+                } else {
                     strcpy(writeBuffer, "\x15");
                 }
             }
@@ -148,7 +147,7 @@ void APP_SEPICTasks()
         }   
     }
     
-    // PWMTasks(frequency);
+    duty_cycle = PWMTasks(frequency, duty_cycle);
 
     CDCTxService();
 }

@@ -70,7 +70,7 @@ void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan, freq_t freq);
 uint8_t freq2pr2(freq_t freq);
 uint16_t duty2ccpr(duty_t duty, freq_t freq);
 
-void PWMTasks(freq_t freq);
+duty_t PWMTasks(freq_t freq, duty_t duty);
 
 #endif	/* PWM_H */
 

@@ -37,6 +37,7 @@
 static duty_t duty_start, duty_end;
 static uint32_t ramp_start, ramp_end;
 static slope_t ramp_slope;
+static int8_t slope_sign;
 
 static bool ramp_en = false;
 
@@ -71,6 +72,7 @@ void pwm_interp_dutycycle(duty_t start, duty_t end, time_t tspan, freq_t freq) {
     ramp_end = ramp_start + tspan;
     
     ramp_slope = ((uint32_t)(end - start) << 6) / tspan;
+    slope_sign = (end > start ? 1 : -1);
     if (ramp_slope == 0) ramp_slope = SLOPE_MIN;
     
     duty_start = start;
@@ -87,21 +89,28 @@ uint16_t duty2ccpr(duty_t duty, freq_t freq) {
     return (uint16_t)(((fptd)(duty) * ((_XTAL_FREQ / (freq * TMR2_PRESCALER)) - 1) / 100) >> 9);
 }
 
-void PWMTasks(freq_t freq) {
+duty_t PWMTasks(freq_t freq, duty_t duty) {
     uint32_t ms_now, elapsed;
-    duty_t duty;
-    if (ramp_en) {
+    if (!ramp_en) {
+        return duty;
+    } else {
         ms_now = USBGet1msTickCount();
         elapsed = ms_now - ramp_start;
         if (ms_now > ramp_end) { 
             ramp_en = false;
-            return;
+            return duty;
         }
-        duty = duty_start + (uint16_t)((ramp_slope * elapsed) >> 6);
-        if (duty > duty_end) {
+        if (slope_sign == 1) {
+            duty = duty_start + (uint16_t)((ramp_slope * elapsed) >> 6);
+        } else if (slope_sign == -1) {
+            duty = duty_start - (uint16_t)((ramp_slope * elapsed) >> 6);
+        }
+        if ((slope_sign == 1 && duty > duty_end) || (slope_sign == -1 && duty < duty_end)) {
             duty = duty_end;
-            ramp_end = false;
+            ramp_en = false;
         }
         pwm_set_dutycycle(duty, freq);
+        
+        return duty;
     }
 }
