@@ -1,0 +1,18 @@
+.SRF1280-680M :1 ;SRF1280 Series - Dual-Winding Shielded Power Inductors
+SRF1280680M
+*STM L
+*NGS
+*PLB 1="N1_1" 2="N2_1" 3="N1_2" 4="N2_2"
+*MXP 4
+*DFN SRF1280-680M
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRF1280-680M)
+~!Mouser Part Number (652-SRF1280-680M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRF1280-680M?qs=Q2Pzc27CV9vH3OhKUPbroQ%3D%3D)
+~!Arrow Part Number (SRF1280-680M)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/srf1280-680m/bourns)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/SRF1280-680M.pdf)
+~!Height (8mm)
+~!3D_Model (SRF1280-680M)
+SRF1280-680M
+1.1!U 2.1!U 3.1!U 4.1!U 

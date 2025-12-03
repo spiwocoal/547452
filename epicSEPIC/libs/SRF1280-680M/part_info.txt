@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SRF1280-680M
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2020-02-28 11:08:01
+Downloaded=2025-12-03 18:18:39
+3D=Y

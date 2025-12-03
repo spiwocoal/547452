@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRF1280_680M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRF1280-680M" (!) = "", "SRF1280680M", "Other", "652-SRF1280-680M", "https://www.mouser.co.uk/ProductDetail/Bourns/SRF1280-680M?qs=Q2Pzc27CV9vH3OhKUPbroQ%3D%3D", "SRF1280-680M", "https://www.arrow.com/en/products/srf1280-680m/bourns", "SRF1280 Series - Dual-Winding Shielded Power Inductors", "https://componentsearchengine.com/Datasheets/2/SRF1280-680M.pdf", "8 mm"
+END_PART
+
+END.
