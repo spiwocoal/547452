@@ -1523,7 +1523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 66.04 33.02 0)
 			(effects
 				(font
@@ -1533,6 +1533,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C224M1RACTU"
 			(at 66.04 33.02 0)
 			(effects
 				(font
@@ -1593,7 +1602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 116.84 33.02 0)
 			(effects
 				(font
@@ -1603,6 +1612,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104M1RACTU"
 			(at 116.84 33.02 0)
 			(effects
 				(font
@@ -1729,7 +1747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 99.06 33.02 0)
 			(effects
 				(font
@@ -1739,6 +1757,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C224M1RACTU"
 			(at 99.06 33.02 0)
 			(effects
 				(font
@@ -1878,7 +1905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -2800,7 +2827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 83.82 33.02 0)
 			(effects
 				(font
@@ -2810,6 +2837,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104M1RACTU"
 			(at 83.82 33.02 0)
 			(effects
 				(font
@@ -2887,6 +2923,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LM7815"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "93fc1449-5c19-4193-9805-46ee750224ba")
 		)
@@ -2951,6 +2996,15 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM7805"
 			(at 107.95 27.94 0)
 			(effects
 				(font

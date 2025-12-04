@@ -1778,6 +1778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "SRF1280-680M"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a25a858-dd7b-4f61-868b-f4fff947ec5f")
 		)
@@ -1856,6 +1865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "ISZ230N10NM6"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78229e55-7662-47aa-9a73-e35b9155b164")
 		)
@@ -1908,7 +1926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 154.94 88.9 0)
 			(effects
 				(font
@@ -2034,7 +2052,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SK52"
 			(at 171.7675 85.09 0)
 			(effects
 				(font
@@ -2051,7 +2069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/sk52.pdf"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -2061,6 +2079,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SK52"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -2208,6 +2235,15 @@
 			)
 		)
 		(property "Description" "Dual Winding Shielded Power Inductor"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRF1280-680M"
 			(at 130.81 88.9 0)
 			(effects
 				(font
