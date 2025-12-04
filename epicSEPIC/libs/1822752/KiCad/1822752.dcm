@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1822752
+D PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SPT 1,5/..-H-THR, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: THR soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear double pinning, Solder pin [P]: 2.6 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1822752/pdf
+$ENDCMP
+#
+#End Doc Library

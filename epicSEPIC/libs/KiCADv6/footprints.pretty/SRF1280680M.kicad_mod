@@ -271,7 +271,7 @@
 		(uuid "8a030877-9968-49e1-bd6f-deda7089cec0")
 	)
 	(embedded_fonts no)
-	(model "SRF1280-680M.stp"
+	(model "${KIPRJMOD}/libs/SRF1280-680M/3D/SRF1280-680M.stp"
 		(offset
 			(xyz 0 0 0)
 		)

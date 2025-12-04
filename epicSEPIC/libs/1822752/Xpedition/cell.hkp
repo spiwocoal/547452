@@ -1,0 +1,104 @@
+.FILETYPE CELL_LIBRARY
+.VERSION "02.50"
+.DATE "Thursday, December 04, 2025 04:14 AM"
+
+.UNITS MM
+
+.PACKAGE_CELL "1822752"
+ ..PACKAGE_GROUP CONNECTOR
+ ..MOUNT_TYPE THROUGH
+ ..NUMBER_LAYERS 12
+ ..PIN "1"
+  ...XY (0,0)
+  ...PADSTACK "s165h110"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "2"
+  ...XY (0,7)
+  ...PADSTACK "c165h110"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "3"
+  ...XY (3.5,0)
+  ...PADSTACK "c165h110"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "4"
+  ...XY (3.5,7)
+  ...PADSTACK "c165h110"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..TEXT "Ref Des"
+  ...TEXT_TYPE REF_DES
+  ...DISPLAY_ATTR
+   ....XY (0,0)
+   ....TEXT_LYR SILKSCREEN_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST LEFT
+   ....VERT_JUST BOTTOM
+   ....HEIGHT 1.27
+   ....WIDTH 0.127
+   ....STROKE_WIDTH 0.127
+   ....ROTATION 0
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..TEXT "Part No"
+  ...TEXT_TYPE PARTNO
+  ...DISPLAY_ATTR
+   ....XY (0,0)
+   ....TEXT_LYR ASSEMBLY_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST LEFT
+   ....VERT_JUST TOP
+   ....HEIGHT 1.27
+   ....WIDTH 0.127
+   ....STROKE_WIDTH 0.127
+   ....ROTATION 0
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.2
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-2, 8.5)
+          (5.5, 8.5)
+          (5.5, -5.2)
+          (-2, -5.2)
+          (-2, 8.5)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-2, 8.5)
+          (5.5, 8.5)
+          (5.5, -5.2)
+          (-2, -5.2)
+          (-2, 8.5)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...CIRCLE_PATH
+   ....WIDTH 0.2
+   ....XY (-3.35, 0)
+   ....RADIUS 0.05
+   ....STYLE SOLIDLINE
+ ..PLACEMENT_OUTLINE
+  ...HEIGHT 7.85
+  ...UNDERSIDE_SPACE 0
+  ...DISPLAY_WIDTH 0
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.05
+   ....XY (-4.25, 9.5)
+          (6.5, 9.5)
+          (6.5, -6.2)
+          (-4.25, -6.2)
+          (-4.25, 9.5)
