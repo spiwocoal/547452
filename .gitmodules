@@ -4,3 +4,6 @@
 [submodule "gui-src"]
 	path = gui-src
 	url = git@github.com:spiwocoal/sepic-gui.git
+[submodule "informe"]
+	path = informe
+	url = git@github.com:spiwocoal/547452-informe.git
