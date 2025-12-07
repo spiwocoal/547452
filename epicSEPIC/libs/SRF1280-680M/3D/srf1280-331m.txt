@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-13062022-067037";"";
+"REFERENCE";"SRF1280-331M";"";
+"TraceParts.PartTitle";"Inductor SMD shielded 330uH";"";
+"TraceParts.InstanceId";"90-13062022-0670372N3XX9WWY2MK673V115V3T3RA";"";
+"DESIGN";"Inductor SMD shielded 330uH";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"BOURNS";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"BOURNS:90-13062022-067037";"";

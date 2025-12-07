@@ -752,16 +752,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 111.76) (xy 198.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010a1977-595f-46b7-8623-781d3c2974fb")
-	)
-	(wire
-		(pts
 			(xy 153.67 63.5) (xy 153.67 69.85)
 		)
 		(stroke
@@ -812,13 +802,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 151.765 78.74)
+			(xy 180.34 111.76) (xy 198.12 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b3f409b-1ec8-409d-be9b-d406164f83cb")
+		(uuid "44bdc218-0fe9-45a2-a7a5-6ba833282aac")
 	)
 	(wire
 		(pts
@@ -859,6 +849,16 @@
 			(type default)
 		)
 		(uuid "53f6480c-d7ca-49b2-a22c-97c0dbbd821c")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5491dd45-d63c-4b4a-b1ad-8dd84b893aef")
 	)
 	(wire
 		(pts
@@ -919,6 +919,16 @@
 			(type default)
 		)
 		(uuid "88a85871-9383-43cd-9ad5-84f51f2233f2")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899a722f-d89f-4869-841b-5c74576f7349")
 	)
 	(wire
 		(pts
@@ -1022,16 +1032,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 81.28) (xy 151.765 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac27f06c-46d3-44c7-80cb-45b82b1f5f29")
-	)
-	(wire
-		(pts
 			(xy 115.57 90.17) (xy 116.84 90.17)
 		)
 		(stroke
@@ -1072,16 +1072,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 60.96) (xy 109.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d444e51a-7133-4f27-bcc1-aa75896bfecf")
-	)
-	(wire
-		(pts
 			(xy 116.84 90.17) (xy 116.84 88.9)
 		)
 		(stroke
@@ -1099,6 +1089,16 @@
 			(type default)
 		)
 		(uuid "e8d09477-ea4b-46fa-9510-0a250ff82b27")
+	)
+	(wire
+		(pts
+			(xy 140.97 81.28) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf5e7a4-75f5-41a1-b71a-288a19214184")
 	)
 	(symbol
 		(lib_id "Connector:USB_B")
@@ -1433,7 +1433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/8109099?response-content-disposition=inline;%20filename%3D%221822752_07_en_03.pdf%22&Expires=1764883973&Signature=r3YrfBYqzjIP56~JDiCDsF6h9L-qF0WKHI2x2nMTL5bGgKmBSmGF-JVu5t~vrgeIWEqDLSKTApcxuj5AGaL7qxo9SfgojHmQFyjuf6W58z9cd60zgbMPpkCbU0Ujg9f9ZlDFkuhHVS7UxzlKDmhaI41QVOeZWDUMwJRgc47rVx0KIRGWLOXGG1wCKXEEU9wQd0mSrsloYGTRFyDHXxjxe7VbqXoXSbps2tSgRFvzxG3JsE8ME~~Gs4kVIeH8os7M4BhCt4iXYn3oeXkdkOsPUfEIaZRWc401pnOsAHUbwM4nOr4~n3NkdIglL26FD0NkNqj52azpdmjNtaxelcDWjQ__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "~"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -1806,8 +1806,8 @@
 		)
 	)
 	(sheet
-		(at 151.765 69.85)
-		(size 12.7 19.05)
+		(at 151.13 69.85)
+		(size 13.335 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1821,7 +1821,7 @@
 		)
 		(uuid "2d010a06-3ee8-464b-b457-d57f80b72531")
 		(property "Sheetname" "Control"
-			(at 158.496 90.932 0)
+			(at 157.861 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1830,7 @@
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 159.004 91.694 0)
+			(at 158.369 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1869,7 @@
 			)
 		)
 		(pin "D+" input
-			(at 151.765 81.28 180)
+			(at 151.13 81.28 180)
 			(uuid "c65f3e4d-5a25-411b-ae7a-c6874521bbad")
 			(effects
 				(font
@@ -1879,7 +1879,7 @@
 			)
 		)
 		(pin "D-" input
-			(at 151.765 78.74 180)
+			(at 151.13 78.74 180)
 			(uuid "2c5875c3-a7d4-483d-8571-58af716b4fc9")
 			(effects
 				(font
@@ -1897,8 +1897,8 @@
 		)
 	)
 	(sheet
-		(at 125.095 55.88)
-		(size 18.415 10.16)
+		(at 124.46 55.88)
+		(size 19.05 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1913,7 +1913,7 @@
 		)
 		(uuid "4d51ac39-4455-4784-a93b-f80ddd634807")
 		(property "Sheetname" "Regulación"
-			(at 125.095 55.1684 0)
+			(at 124.46 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1922,7 @@
 			)
 		)
 		(property "Sheetfile" "regulacion.kicad_sch"
-			(at 125.095 66.6246 0)
+			(at 124.46 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(pin "+24V" input
-			(at 125.095 60.96 180)
+			(at 124.46 60.96 180)
 			(uuid "0cced366-9d76-4800-b29a-0051f491258d")
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 	)
 	(sheet
 		(at 162.56 106.68)
-		(size 18.415 10.16)
+		(size 17.78 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2023,7 +2023,7 @@
 			)
 		)
 		(pin "Vout" input
-			(at 180.975 111.76 0)
+			(at 180.34 111.76 0)
 			(uuid "ae91e710-8535-4041-81c6-d8be11c00760")
 			(effects
 				(font
