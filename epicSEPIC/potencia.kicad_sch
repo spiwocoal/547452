@@ -1691,7 +1691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor 63Vdc"
+		(property "Description" "Condensador de polímero, 63V"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -1700,7 +1700,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "A767MU107M1JLAE028"
+		(property "Dist" "Mouser"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-A767MU107M1JLAE28"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "A767MU107M1JLAE28"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -1778,8 +1805,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SRF1280-680M"
-			(at 165.1 99.06 0)
+		(property "Dist" "Mouser"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "652-SRF1280-680M"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Bourns"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "SRF1280-680M"
+			(at 165.1 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1919,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ISZ230N10NM6"
+		(property "Dist" "Mouser"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "726-ISZ230N10NM6ATMA"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Infineon"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "ISZ230N10NM6ATMA1"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -1935,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 100Vdc"
+		(property "Description" "Condensador cerámico. 100V"
 			(at 154.94 88.9 0)
 			(effects
 				(font
@@ -1944,7 +2025,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C1206C684M1RACTU"
+		(property "Dist" "Mouser"
+			(at 154.94 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C1206C684M1R"
+			(at 154.94 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 154.94 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C1206C684M1RACTU"
 			(at 154.94 88.9 90)
 			(effects
 				(font
@@ -2087,7 +2195,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SK52"
+		(property "Dist" "Mouser"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "637-SK58"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Diotec"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "SK58"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -2156,7 +2291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor 50Vdc"
+		(property "Description" "Condensador de polímero, 50V"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -2165,7 +2300,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "A767KN226M1HLAE050"
+		(property "Dist" "Mouser"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-A767KN226M1HLAE50"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "A767KN226M1HLAE050"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -2243,7 +2405,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SRF1280-680M"
+		(property "Dist" "Mouser"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "652-SRF1280-680M"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Bourns"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "SRF1280-680M"
 			(at 130.81 88.9 0)
 			(effects
 				(font

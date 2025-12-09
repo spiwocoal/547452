@@ -3212,8 +3212,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ESR03EZPD5102"
-			(at 152.4 35.56 0)
+		(property "Dist" "Mouser"
+			(at 152.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "755-ESR03EZPD5102"
+			(at 152.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Rohm"
+			(at 152.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "ESR03EZPD5102"
+			(at 152.4 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3318,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1EDN7550U"
+		(property "Dist" "Mouser"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "726-1EDN7550UXTSA1"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Infineon"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "1EDN7550U"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -3448,6 +3502,33 @@
 				(hide yes)
 			)
 		)
+		(property "Dist" ""
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" ""
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "dc3266ab-36db-492d-98aa-048249419103")
 		)
@@ -3593,8 +3674,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ESR03EZPD5102"
-			(at 152.4 40.64 0)
+		(property "Dist" "Mouser"
+			(at 152.4 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "755-ESR03EZPD5102"
+			(at 152.4 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Rohm"
+			(at 152.4 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "ESR03EZPD5102"
+			(at 152.4 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Condensador cerámico, 10V"
 			(at 24.13 63.5 0)
 			(effects
 				(font
@@ -3802,7 +3910,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0402C200M1RACTU"
+		(property "Dist" "Mouser"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0402C200M8HACTU"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0402C200M8HACTU"
 			(at 24.13 63.5 0)
 			(effects
 				(font
@@ -4081,7 +4216,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "PIC18F4550-IML"
+		(property "Dist" "Mouser"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "579-PIC18F4550-I/ML"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Microchip"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "PIC18F4550-IML"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -4283,8 +4445,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RT0402BRE072RL"
-			(at 185.42 35.56 0)
+		(property "Dist" "Mouser"
+			(at 185.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "603-RT0402BRE072RL"
+			(at 185.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Yageo"
+			(at 185.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "RT0402BRE072RL"
+			(at 185.42 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,8 +4549,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RT0402BRE072RL"
-			(at 185.42 40.64 0)
+		(property "Dist" "Mouser"
+			(at 185.42 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "603-RT0402BRE072RL"
+			(at 185.42 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Yageo"
+			(at 185.42 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "RT0402BRE072RL"
+			(at 185.42 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Condensador cerámico, 10V"
 			(at 41.91 63.5 0)
 			(effects
 				(font
@@ -4436,7 +4652,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0402C200M1RACTU"
+		(property "Dist" "Mouser"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0402C200M8HACTU"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0402C200M8HACTU"
 			(at 41.91 63.5 0)
 			(effects
 				(font
@@ -4578,7 +4821,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FH2000021"
+		(property "Dist" "Mouser"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "729-FH2000021"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Diodes Incorporated"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "FH2000021"
 			(at 33.02 57.15 0)
 			(effects
 				(font

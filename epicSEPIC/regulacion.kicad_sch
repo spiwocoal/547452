@@ -2027,7 +2027,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CGA3E3X5R1V474K080AB"
+		(property "Dist" "Mouser"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-CGA3E3X5R1V474KB"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CGA3E3X5R1V474K080AB"
 			(at 34.29 40.64 0)
 			(effects
 				(font
@@ -2104,8 +2131,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "7447798131"
-			(at 74.93 91.44 0)
+		(property "Dist" "Mouser"
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "710-7447798131"
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Würth Elektronik"
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "7447798131"
+			(at 74.93 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2237,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C103M8RACTU"
+		(property "Dist" "Mouser"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0603C103M8R"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0603C103M8RACTU"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -2260,8 +2341,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74437349150"
-			(at 74.93 38.1 0)
+		(property "Dist" "Mouser"
+			(at 74.93 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "710-74437349150"
+			(at 74.93 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Würth Elektronik"
+			(at 74.93 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "74437349150"
+			(at 74.93 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2447,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C104M8RACTU"
+		(property "Dist" "Mouser"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0805C104M8R"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0805C104M8RACTU"
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -2483,7 +2618,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0402100KFKED"
+		(property "Dist" "Mouser"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "71-CRCW0402-100K-E3"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Vishay"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CRCW0402100KFKED"
 			(at 81.28 44.45 0)
 			(effects
 				(font
@@ -2562,7 +2724,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0402C102M4RACTU"
+		(property "Dist" "Mouser"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0402C102M4R"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0402C102M4RACTU"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -2707,7 +2896,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C104M4RACTU"
+		(property "Dist" "Mouser"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0805C104M4R"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0805C104M4RACTU"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -2786,7 +3002,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C103M4RACTU"
+		(property "Dist" "Mouser"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0603C103M4R"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0603C103M4RACTU"
 			(at 133.35 43.18 0)
 			(effects
 				(font
@@ -2865,7 +3108,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0402100KFKED"
+		(property "Dist" "Mouser"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "71-CRCW0402-100K-E3"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Vishay"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CRCW0402100KFKED"
 			(at 81.28 97.79 0)
 			(effects
 				(font
@@ -2943,7 +3213,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TPS54308"
+		(property "Dist" "Mouser"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "595-TPS54308DDCR"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Texas Instruments"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "TPS54308"
 			(at 48.26 91.44 0)
 			(effects
 				(font
@@ -3034,7 +3331,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0402C102M8RACTU"
+		(property "Dist" "Mouser"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0402C102M8R"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0402C102M8RACTU"
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -3113,7 +3437,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CGA3E3X5R1V474K080AB"
+		(property "Dist" "Mouser"
+			(at 34.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-CGA3E3X5R1V474KB"
+			(at 34.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 34.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CGA3E3X5R1V474K080AB"
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -3324,7 +3675,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW040213K7FKED"
+		(property "Dist" "Mouser"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "71-CRCW0402-13.7K-E3"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Vishay"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CRCW040213K7FKED"
 			(at 81.28 107.95 0)
 			(effects
 				(font
@@ -3534,7 +3912,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C2012X5R1A336M125AC"
+		(property "Dist" "Mouser"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-C2012X5R1A336M125AC"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C2012X5R1A336M125AC"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -3613,7 +4018,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C105M8RACTU"
+		(property "Dist" "Mouser"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "80-C0805C105M8R"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Kemet"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C0805C105M8RACTU"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -3690,8 +4122,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C1005X7R1H104K050BB"
-			(at 64.77 86.36 0)
+		(property "Dist" "Mouser"
+			(at 64.77 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-C1005X7R1H104K"
+			(at 64.77 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 64.77 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C1005X7R1H104K050BB"
+			(at 64.77 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +4293,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW04024K12FKED"
+		(property "Dist" "Mouser"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "71-CRCW0402-4.12K-E3"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Vishay"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "CRCW04024K12FKED"
 			(at 81.28 54.61 0)
 			(effects
 				(font
@@ -3911,8 +4397,35 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C1005X7R1H104K050BB"
-			(at 64.77 33.02 0)
+		(property "Dist" "Mouser"
+			(at 64.77 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-C1005X7R1H104K"
+			(at 64.77 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 64.77 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C1005X7R1H104K050BB"
+			(at 64.77 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4503,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C2012X5R1V156M125AC"
+		(property "Dist" "Mouser"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "810-C2012X5R1V156M1C"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TDK"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "C2012X5R1V156M125AC"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -4068,7 +4608,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TPS54308"
+		(property "Dist" "Mouser"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "595-TPS54308DDCR"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Texas Instruments"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "TPS54308"
 			(at 48.26 38.1 0)
 			(effects
 				(font

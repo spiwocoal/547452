@@ -1153,7 +1153,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "61729-0010RLF"
+		(property "Dist" "Mouser"
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" "649-61729-0010RLF"
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Amphenol FCI"
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "61729-0010RLF"
 			(at 116.84 78.74 0)
 			(effects
 				(font
@@ -1238,7 +1265,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1822752"
+		(property "Dist" "Mouser"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" " 651-1823638 "
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Phoenix Contact"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "1823638"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -1315,6 +1369,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 290.83 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" ""
+			(at 290.83 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" ""
+			(at 290.83 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
 			(at 290.83 421.64 0)
 			(effects
 				(font
@@ -1451,7 +1532,34 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1822752"
+		(property "Dist" "Mouser"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" " 651-1823638 "
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Phoenix Contact"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPN" "1823638"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -1602,6 +1710,33 @@
 				(hide yes)
 			)
 		)
+		(property "Dist" ""
+			(at 290.83 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" ""
+			(at 290.83 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 290.83 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/4aad8e32-74ba-4d05-8827-a4f531fce32b"
@@ -1666,6 +1801,33 @@
 				(hide yes)
 			)
 		)
+		(property "Dist" ""
+			(at 290.83 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" ""
+			(at 290.83 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 290.83 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "epicSEPIC"
 				(path "/4aad8e32-74ba-4d05-8827-a4f531fce32b"
@@ -1722,6 +1884,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 290.83 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" ""
+			(at 290.83 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistPN" ""
+			(at 290.83 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
 			(at 290.83 431.8 0)
 			(effects
 				(font
