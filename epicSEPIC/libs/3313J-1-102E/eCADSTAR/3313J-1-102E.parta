@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_651692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-13-16:24:15)
+    (utime 2024-06-25-08:05:25)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "3313J-1-102E")
+)
+
+
+(pinAssign "ECS_651692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-13-16:24:15)
+    (utime 2024-06-25-08:05:25)
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_651692")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "3313J-1-102E")
+)
+
+
+(part "3313J-1-102E"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-05-13-16:24:15)
+    (utime 2024-06-25-08:05:25)
+    (packageRef "3313J-1-102E")
+    (pinAssignRef "ECS_651692")
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "VR")
+    (property "description" "Bourns 3313J Series SMD Cermet Trimmer Resistor with J-Hook Terminations, 1k +/-20% 1/8W +/-100ppm/C Top Adjust")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "3313J-1-102E")
+    (property "Mouser_Part_Number" "652-3313J-1-102E")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3313J-1-102E?qs=l1PtJIY2wTDEZbKLDT4Xyg%3D%3D")
+    (property "Arrow_Part_Number" "3313J-1-102E")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/3313j-1-102e/bourns?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/3313J-1-102E.pdf")
+    (property "compAreaTopHeight" 2.4)
+)
+
+

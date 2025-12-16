@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "3313J-1-102E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-12-03:44:28)
+    (mountForm default
+        (footprintRef "3313J1102E")
+        (spec "System")
+    )
+)

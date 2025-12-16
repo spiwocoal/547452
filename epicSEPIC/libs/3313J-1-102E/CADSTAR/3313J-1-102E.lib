@@ -1,0 +1,18 @@
+.3313J-1-102E :1 ;Bourns 3313J Series SMD Cermet Trimmer Resistor with J-Hook Terminations, 1k +/-20% 1/8W +/-100ppm/C Top Adjust
+"3313J1102E"
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN 3313J-1-102E
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (3313J-1-102E)
+~!Mouser Part Number (652-3313J-1-102E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/3313J-1-102E?qs=l1PtJIY2wTDEZbKLDT4Xyg%3D%3D)
+~!Arrow Part Number (3313J-1-102E)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/3313j-1-102e/bourns?utm_currency=USD&region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/3313J-1-102E.pdf)
+~!Height (2.4mm)
+~!3D_Model (3313J-1-102E)
+"3313J-1-102E"
+1.1!U 2.1!U 3.1!U 
