@@ -1796,7 +1796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Winding Shielded Power Inductor"
+		(property "Description" "Inductor acoplado"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "31A Id, 100V Vds, 23mOhm Rds, N-Channel MOSFET, PQFN"
+		(property "Description" "MOSFET Canal N, 31A Id, 100V Vds, 23mOhm Rds"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -2160,7 +2160,7 @@
 				)
 			)
 		)
-		(property "Value" "SK52"
+		(property "Value" "SK58"
 			(at 171.7675 85.09 0)
 			(effects
 				(font
@@ -2186,7 +2186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diodo Schottky, 5A, 80V"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Winding Shielded Power Inductor"
+		(property "Description" "Inductor acoplado"
 			(at 130.81 88.9 0)
 			(effects
 				(font
