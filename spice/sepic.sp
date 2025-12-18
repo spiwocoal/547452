@@ -6,19 +6,21 @@
 
 .model diode1 D(BV=100 VJ=0.5)
 
-.param freq=60k
+.param freq=100k
 .param vi=24
-.param vo=48
+.param vo=12
 .param po=5
 .param vfwd=0.364
 .param duty={(vo + vfwd) / (vi + vo + vfwd)}
 .param rld={vo^2 / po}
 
-Rl1 n1 n11 0.17
-L1 n11 n2 2.74m
+Rl1 n1 n11 0.27
+L1 n11 n2 1.5m
 
-Rl2 n3 n33 0.17
-L2 n33 GND 2.74m
+Rl2 n3 n33 0.82
+L2 GND n33 1.5m
+
+K12 L2 L1 0.99
 
 xmos n2 PWM GND irf520n
 D1 n3 out diode1
@@ -38,7 +40,7 @@ Rload out GND {rld}
 V1 vin GND DC {vi}
 R1 vin n1 10m
 
-V2 pwmin GND PULSE(0 12 0 1n 1n {(duty*(1/freq))} {1/freq})
+V2 pwmin GND PULSE(0 15 0 1n 1n {(duty*(1/freq))} {1/freq})
 Rpwm pwmin PWM 6
 
 .end

@@ -14062,7 +14062,7 @@
 		(descr "3313J-1-102E-3")
 		(tags "Variable Resistor")
 		(property "Reference" "RV1"
-			(at 1.15 -4.2 0)
+			(at 3.35 0.05 0)
 			(layer "B.SilkS")
 			(uuid "970a668d-4e49-4530-94bd-c8f159c2f36b")
 			(effects
@@ -14797,7 +14797,7 @@
 			(uuid "e3a2cd3d-1698-415b-b2fd-bd504357d213")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.stpZ"
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
 			(offset
 				(xyz 0 0 0)
 			)
