@@ -7,3 +7,6 @@
 [submodule "informe"]
 	path = informe
 	url = git@github.com:spiwocoal/547452-informe.git
+[submodule "guia-usuario"]
+	path = guia-usuario
+	url = git@github.com:Zandex90/547452_Guia_Usuario.git
